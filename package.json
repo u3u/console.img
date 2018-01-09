@@ -1,12 +1,13 @@
 {
   "name": "console.img",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Display a picture in the Chrome browser console",
   "repository": {
     "url": "https://github.com/MoeFE/console.img",
     "type": "git"
   },
   "main": "dist/console.img.min.js",
+  "types": "types/index.d.ts",
   "files": ["dist", "types"],
   "scripts": {
     "test": "npm run lint && echo 'no tests!'",
