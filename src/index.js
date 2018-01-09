@@ -9,9 +9,10 @@ console.img = function(url) {
     const image = evt.target
     const width = (arguments[1] || image.width) / 2
     const height = (arguments[2] || image.height) / 2
+    const lineHeight = height * 2
     console.log(
       '%c',
-      `font-size: 0; padding: ${height}px ${width}px; line-height: ${height}px; background: url(${url}) no-repeat 50% / 100%`
+      `font-size: 0; padding: ${height}px ${width}px; line-height: ${lineHeight}px; background: url(${url}) no-repeat 50% / 100%`
     )
   }
   img.src = url
