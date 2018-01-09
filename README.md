@@ -1,6 +1,6 @@
 # console.img
 
-> Display a picture in the Chrome browser console
+> 🎉 Display a picture in the Chrome browser console
 
 [![NPM version](https://img.shields.io/npm/v/console.img.svg?style=flat)](https://npmjs.com/package/console.img) [![NPM downloads](https://img.shields.io/npm/dm/console.img.svg?style=flat)](https://npmjs.com/package/console.img) [![CircleCI](https://img.shields.io/circleci/project/github/MoeFE/console.img/master.svg)](https://circleci.com/gh/MoeFE/console.img) [![Prettier code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
