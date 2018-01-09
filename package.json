@@ -1,6 +1,6 @@
 {
   "name": "console.img",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Display a picture in the Chrome browser console",
   "repository": {
     "url": "https://github.com/MoeFE/console.img",
