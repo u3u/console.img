@@ -1,0 +1,42 @@
+{
+  "name": "console.img",
+  "version": "2.0.0",
+  "description": "Display a picture in the Chrome browser console",
+  "repository": {
+    "url": "https://github.com/MoeFE/console.img",
+    "type": "git"
+  },
+  "main": "dist/console.img.min.js",
+  "files": ["src", "dist", "types"],
+  "scripts": {
+    "test": "npm run lint && echo 'no tests!'",
+    "lint": "xo",
+    "lint:fix": "xo --fix",
+    "build":
+      "bili --filename console.img[suffix].js --moduleName console.img --format umd,umd-min --banner",
+    "format": "prettier \"*/**/*.js\" --ignore-path ./.prettierignore --write",
+    "prettier": "npm run format && npm run lint:fix && git status"
+  },
+  "author": "u3u <quq@quq.cat>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "bili": "^1.4.0",
+    "eslint-config-rem": "^3.0.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.9.2",
+    "xo": "^0.18.0"
+  },
+  "pre-commit": ["prettier"],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "xo": {
+    "extends": "rem",
+    "envs": ["browser"],
+    "rules": {
+      "space-before-function-paren": 0
+    }
+  }
+}
