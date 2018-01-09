@@ -7,7 +7,7 @@
     "type": "git"
   },
   "main": "dist/console.img.min.js",
-  "files": ["src", "dist", "types"],
+  "files": ["dist", "types"],
   "scripts": {
     "test": "npm run lint && echo 'no tests!'",
     "lint": "xo",
