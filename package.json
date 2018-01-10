@@ -8,13 +8,15 @@
   },
   "main": "dist/console.img.min.js",
   "types": "types/index.d.ts",
-  "files": ["dist", "types"],
+  "files": [
+    "dist",
+    "types"
+  ],
   "scripts": {
     "test": "npm run lint && echo 'no tests!'",
     "lint": "xo",
     "lint:fix": "xo --fix",
-    "build":
-      "bili --filename console.img[suffix].js --moduleName console.img --format umd,umd-min --banner",
+    "build": "bili --filename console.img[suffix].js --moduleName console.img --format umd,umd-min --banner",
     "format": "prettier \"*/**/*.js\" --ignore-path ./.prettierignore --write",
     "prettier": "npm run format && npm run lint:fix && git status"
   },
@@ -28,14 +30,18 @@
     "prettier": "^1.9.2",
     "xo": "^0.18.0"
   },
-  "pre-commit": ["prettier"],
+  "pre-commit": [
+    "prettier"
+  ],
   "prettier": {
     "semi": false,
     "singleQuote": true
   },
   "xo": {
     "extends": "rem",
-    "envs": ["browser"],
+    "envs": [
+      "browser"
+    ],
     "rules": {
       "space-before-function-paren": 0
     }
