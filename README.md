@@ -6,13 +6,7 @@
 
 ![preview](https://i.loli.net/2018/01/09/5a54873e169f4.gif)
 
-## Install
-
-```bash
-yarn add console.img
-```
-
-## Usage
+## Quick start
 
 ```js
 var script = document.createElement('script')
@@ -20,6 +14,18 @@ script.src = '//unpkg.com/console.img/dist/console.img.min.js'
 script.onload = () =>
   console.img('http://image.diyidan.net/post/2015/11/8/kreGswFTYGFVgWjF.gif')
 document.body.appendChild(script)
+```
+
+## Install
+
+```bash
+yarn add console.img
+```
+
+## Usage
+```js
+import 'console.img'
+console.img('http://image.diyidan.net/post/2015/11/8/kreGswFTYGFVgWjF.gif')
 ```
 
 ## CDN
