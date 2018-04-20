@@ -4,7 +4,16 @@ console.img = function(url) {
     return
   }
 
+  let promise
   const img = new Image()
+
+  if (Promise) {
+    promise = new Promise((resolve, reject) => {
+      img.addEventListener('load', resolve)
+      img.addEventListener('error', reject)
+    })
+  }
+
   img.onload = evt => {
     const image = evt.target
     const width = (arguments[1] || image.width) / 2
@@ -16,6 +25,8 @@ console.img = function(url) {
     )
   }
   img.src = url
+
+  return promise
 }
 
 console.img.toString = () => 'function img () { [native code] }'
