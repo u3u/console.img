@@ -26,7 +26,6 @@ yarn add console.img
 
 ```js
 import 'console.img'
-
 console.img('https://ws1.sinaimg.cn/large/006r446Hgy1fqgmmxi0omg302s02swf0.gif')
 ```
 
