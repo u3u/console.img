@@ -9,7 +9,7 @@ console.img = function(url) {
 
   if (Promise) {
     promise = new Promise((resolve, reject) => {
-      img.addEventListener('load', resolve)
+      img.addEventListener('load', () => setTimeout(resolve))
       img.addEventListener('error', reject)
     })
   }
