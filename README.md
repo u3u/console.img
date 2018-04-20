@@ -23,9 +23,22 @@ yarn add console.img
 ```
 
 ## Usage
+
 ```js
 import 'console.img'
+
 console.img('https://i.loli.net/2018/03/27/5ab9c69c922b0.gif')
+```
+
+**Ordered output:**
+
+```js
+import 'console.img'
+
+;(async () => {
+  await console.img('https://i.loli.net/2018/03/27/5ab9c69c922b0.gif')
+  console.log('done')
+})()
 ```
 
 ## CDN
