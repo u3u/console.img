@@ -27,16 +27,17 @@ yarn add console.img
 ```js
 import 'console.img'
 
-console.img('https://i.loli.net/2018/03/27/5ab9c69c922b0.gif')
+console.img('https://ws1.sinaimg.cn/large/006r446Hgy1fqgmmxi0omg302s02swf0.gif')
 ```
 
 **Ordered output:**
 
 ```js
 import 'console.img'
-
 ;(async () => {
-  await console.img('https://i.loli.net/2018/03/27/5ab9c69c922b0.gif')
+  await console.img(
+    'https://ws1.sinaimg.cn/large/006r446Hgy1fqgmmxi0omg302s02swf0.gif'
+  )
   console.log('done')
 })()
 ```
