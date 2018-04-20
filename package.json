@@ -1,9 +1,9 @@
 {
   "name": "console.img",
-  "version": "2.0.3",
+  "version": "2.1.0-beta",
   "description": "🎉 Display a picture in the Chrome browser console",
   "repository": {
-    "url": "https://github.com/MoeFE/console.img",
+    "url": "https://github.com/u3u/console.img",
     "type": "git"
   },
   "main": "dist/console.img.min.js",
@@ -20,7 +20,7 @@
     "format": "prettier \"*/**/*.js\" --ignore-path ./.prettierignore --write",
     "prettier": "npm run format && npm run lint:fix && git status"
   },
-  "author": "u3u <quq@quq.cat>",
+  "author": "u3u <qwq@qwq.cat>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
