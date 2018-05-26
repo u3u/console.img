@@ -13,6 +13,7 @@
     "types"
   ],
   "scripts": {
+    "prepublish": "npm run build",
     "test": "npm run lint && dtslint types",
     "lint": "xo",
     "lint:fix": "xo --fix",
