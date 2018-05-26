@@ -13,7 +13,7 @@
     "types"
   ],
   "scripts": {
-    "test": "npm run lint && echo 'no tests!'",
+    "test": "npm run lint && dtslint types",
     "lint": "xo",
     "lint:fix": "xo --fix",
     "build": "bili --filename console.img[suffix].js --moduleName console.img --format umd,umd-min --banner",
@@ -25,6 +25,7 @@
   "dependencies": {},
   "devDependencies": {
     "bili": "^3.1.0",
+    "dtslint": "^0.3.0",
     "eslint-config-rem": "^4.0.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.9.2",
