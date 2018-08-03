@@ -25,12 +25,12 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "bili": "^3.1.0",
+    "bili": "^3.1.2",
     "dtslint": "^0.3.0",
     "eslint-config-rem": "^4.0.0",
     "pre-commit": "^1.2.2",
-    "prettier": "^1.9.2",
-    "xo": "^0.18.0"
+    "prettier": "^1.14.0",
+    "xo": "^0.21.1"
   },
   "pre-commit": [
     "prettier"
