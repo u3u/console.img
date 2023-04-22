@@ -6,18 +6,9 @@
 
 <img src="https://i.loli.net/2018/01/09/5a54873e169f4.gif" width="512">
 
-## Quick start
-
-```js
-var script = document.createElement('script')
-script.src = 'https://unpkg.com/console.img'
-script.onload = () => console.img('https://i.loli.net/2018/03/27/5ab9c69c922b0.gif')
-document.body.appendChild(script)
-```
-
 ## Install
 
-```bash
+```sh
 pnpm add console.img
 ```
 
