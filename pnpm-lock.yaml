@@ -5,17 +5,17 @@ devDependencies:
     specifier: ^2.0.0
     version: 2.0.0
   '@types/node':
-    specifier: ^18.15.13
-    version: 18.15.13
+    specifier: ^18.16.0
+    version: 18.16.0
   '@u3u/prettier-config':
     specifier: ^1.0.2
-    version: 1.0.2(postcss@8.4.23)(prettier@2.8.7)
+    version: 1.0.2(postcss@8.4.23)(prettier@2.8.8)
   lint-staged:
     specifier: ^13.2.1
     version: 13.2.1
   prettier:
-    specifier: ^2.8.7
-    version: 2.8.7
+    specifier: ^2.8.8
+    version: 2.8.8
   simple-git-hooks:
     specifier: ^2.8.1
     version: 2.8.1
@@ -437,7 +437,7 @@ packages:
     dev: true
     optional: true
 
-  /@ianvs/prettier-plugin-sort-imports@3.7.2(prettier@2.8.7):
+  /@ianvs/prettier-plugin-sort-imports@3.7.2(prettier@2.8.8):
     resolution: {integrity: sha512-bVckKToJM8XV2wTOG1VpeXrSmfAG49esVrikbxeFbY51RJdNke9AdMANJtGuACB59uo+pGlz0wBdWFrRzWyO1A==}
     peerDependencies:
       '@vue/compiler-sfc': '>=3.0.0'
@@ -454,7 +454,7 @@ packages:
       javascript-natural-sort: 0.7.1
       lodash.clone: 4.5.0
       lodash.isequal: 4.5.0
-      prettier: 2.8.7
+      prettier: 2.8.8
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -526,7 +526,7 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@prettier/plugin-php@0.19.4(prettier@2.8.7):
+  /@prettier/plugin-php@0.19.4(prettier@2.8.8):
     resolution: {integrity: sha512-FiSnSfP+Vo0/HVRXg7ZnEYJEM1eWS+MmsozYtzEdIf8Vg9v/+fwvyXMNayI5SgZ1Y9F5LGhl/EOMWIPzr9c2Xg==}
     peerDependencies:
       prettier: ^1.15.0 || ^2.0.0
@@ -534,14 +534,14 @@ packages:
       linguist-languages: 7.21.0
       mem: 8.1.1
       php-parser: 3.1.4
-      prettier: 2.8.7
+      prettier: 2.8.8
     dev: true
 
   /@prettier/plugin-xml@2.2.0:
     resolution: {integrity: sha512-UWRmygBsyj4bVXvDiqSccwT1kmsorcwQwaIy30yVh8T+Gspx4OlC0shX1y+ZuwXZvgnafmpRYKks0bAu9urJew==}
     dependencies:
       '@xml-tools/parser': 1.0.11
-      prettier: 2.8.7
+      prettier: 2.8.8
     dev: true
 
   /@shufo/prettier-plugin-blade@1.8.12(postcss@8.4.23):
@@ -549,7 +549,7 @@ packages:
     engines: {node: '>= 14.0.0'}
     dependencies:
       blade-formatter: 1.32.12(postcss@8.4.23)
-      prettier: 2.8.7
+      prettier: 2.8.8
       synckit: 0.8.5
     transitivePeerDependencies:
       - postcss
@@ -588,8 +588,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node@18.15.13:
-    resolution: {integrity: sha512-N+0kuo9KgrUQ1Sn/ifDXsvg0TTleP7rIy4zOBGECxAljqvqfqpTfzx0Q1NUedOixRMBfe2Whhb056a42cWs26Q==}
+  /@types/node@18.16.0:
+    resolution: {integrity: sha512-BsAaKhB+7X+H4GnSjGhJG9Qi8Tw+inU9nJDwmD5CgOmBLEI6ArdhikpLX7DjbjDRDTbqZzU2LSQNZg8WGPiSZQ==}
     dev: true
 
   /@types/prettier@2.7.2:
@@ -600,25 +600,25 @@ packages:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
     dev: true
 
-  /@u3u/prettier-config@1.0.2(postcss@8.4.23)(prettier@2.8.7):
+  /@u3u/prettier-config@1.0.2(postcss@8.4.23)(prettier@2.8.8):
     resolution: {integrity: sha512-uub5jfQOsxTgDWdgtg8f5VdrJsQTk77EgpWS4+mhFID/zqRiYniS3XxwXv92ME9lfr/XXErYBeYcRKAvE+7bqQ==}
     requiresBuild: true
     peerDependencies:
       prettier: ^2.8.7
     dependencies:
-      '@ianvs/prettier-plugin-sort-imports': 3.7.2(prettier@2.8.7)
-      '@prettier/plugin-php': 0.19.4(prettier@2.8.7)
+      '@ianvs/prettier-plugin-sort-imports': 3.7.2(prettier@2.8.8)
+      '@prettier/plugin-php': 0.19.4(prettier@2.8.8)
       '@prettier/plugin-xml': 2.2.0
       '@shufo/prettier-plugin-blade': 1.8.12(postcss@8.4.23)
       deepmerge: 4.3.1
-      prettier: 2.8.7
+      prettier: 2.8.8
       prettier-plugin-ini: 1.1.0
-      prettier-plugin-jsdoc: 0.4.2(prettier@2.8.7)
+      prettier-plugin-jsdoc: 0.4.2(prettier@2.8.8)
       prettier-plugin-nginx: 1.0.3
-      prettier-plugin-packagejson: 2.4.3(prettier@2.8.7)
-      prettier-plugin-sh: 0.12.8(prettier@2.8.7)
-      prettier-plugin-sort-json: 1.0.0(prettier@2.8.7)
-      prettier-plugin-sql: 0.14.0(prettier@2.8.7)
+      prettier-plugin-packagejson: 2.4.3(prettier@2.8.8)
+      prettier-plugin-sh: 0.12.8(prettier@2.8.8)
+      prettier-plugin-sort-json: 1.0.0(prettier@2.8.8)
+      prettier-plugin-sql: 0.14.0(prettier@2.8.8)
     transitivePeerDependencies:
       - '@vue/compiler-sfc'
       - postcss
@@ -752,7 +752,7 @@ packages:
     engines: {node: '>= 14.0.0'}
     hasBin: true
     dependencies:
-      '@prettier/plugin-php': 0.19.4(prettier@2.8.7)
+      '@prettier/plugin-php': 0.19.4(prettier@2.8.8)
       '@shufo/tailwindcss-class-sorter': 2.0.0(postcss@8.4.23)
       aigle: 1.14.1
       ajv: 8.12.0
@@ -766,7 +766,7 @@ packages:
       js-beautify: 1.14.7
       lodash: 4.17.21
       php-parser: 3.1.4
-      prettier: 2.8.7
+      prettier: 2.8.8
       tailwindcss: 3.3.1(postcss@8.4.23)
       vscode-oniguruma: 1.7.0
       vscode-textmate: 7.0.4
@@ -2123,10 +2123,10 @@ packages:
   /prettier-plugin-ini@1.1.0:
     resolution: {integrity: sha512-xlWM//GrLYU5CX3Qdn5isOlxz1LHnTi4fdSHZX/UYV/C5ipbcFfdCglENoOPGp4N5EvtA5Q1FuVhg95K58TMRg==}
     dependencies:
-      prettier: 2.8.7
+      prettier: 2.8.8
     dev: true
 
-  /prettier-plugin-jsdoc@0.4.2(prettier@2.8.7):
+  /prettier-plugin-jsdoc@0.4.2(prettier@2.8.8):
     resolution: {integrity: sha512-w2jnAQm3z0GAG0bhzVJeehzDtrhGMSxJjit5ApCc2oxWfc7+jmLAkbtdOXaSpfwZz3IWkk+PiQPeRrLNpbM+Mw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2135,7 +2135,7 @@ packages:
       binary-searching: 2.0.5
       comment-parser: 1.3.1
       mdast-util-from-markdown: 1.3.0
-      prettier: 2.8.7
+      prettier: 2.8.8
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2144,7 +2144,7 @@ packages:
     resolution: {integrity: sha512-vV5q85s8XnV6NEgvz1gVLfZhmxAxY03MyOYj2ApBpjFkbs00lRsRkTmqO9L39ADuD18z1RRCcfZ3eVxKhI/nqg==}
     dev: true
 
-  /prettier-plugin-packagejson@2.4.3(prettier@2.8.7):
+  /prettier-plugin-packagejson@2.4.3(prettier@2.8.8):
     resolution: {integrity: sha512-kPeeviJiwy0BgOSk7No8NmzzXfW4R9FYWni6ziA5zc1kGVVrKnBzMZdu2TUhI+I7h8/5Htt3vARYOk7KKJTTNQ==}
     peerDependencies:
       prettier: '>= 1.16.0'
@@ -2152,47 +2152,47 @@ packages:
       prettier:
         optional: true
     dependencies:
-      prettier: 2.8.7
+      prettier: 2.8.8
       sort-package-json: 2.4.1
       synckit: 0.8.5
     dev: true
 
-  /prettier-plugin-sh@0.12.8(prettier@2.8.7):
+  /prettier-plugin-sh@0.12.8(prettier@2.8.8):
     resolution: {integrity: sha512-VOq8h2Gn5UzrCIKm4p/nAScXJbN09HdyFDknAcxt6Qu/tv/juu9bahxSrcnM9XWYA+Spz1F1ANJ4LhfwB7+Q1Q==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     peerDependencies:
       prettier: ^2.0.0
     dependencies:
       mvdan-sh: 0.10.1
-      prettier: 2.8.7
+      prettier: 2.8.8
       sh-syntax: 0.3.7
       synckit: 0.8.5
     dev: true
 
-  /prettier-plugin-sort-json@1.0.0(prettier@2.8.7):
+  /prettier-plugin-sort-json@1.0.0(prettier@2.8.8):
     resolution: {integrity: sha512-XgcaF/Sojax1vD6j53wNIByx0rp7ecang+A8W0eM+Ks3yBFu/qXjJNvUtC1lEWeYbNfmRs/d8FyYJCYozAVENw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       prettier: ^2.3.2
     dependencies:
       '@types/prettier': 2.7.2
-      prettier: 2.8.7
+      prettier: 2.8.8
     dev: true
 
-  /prettier-plugin-sql@0.14.0(prettier@2.8.7):
+  /prettier-plugin-sql@0.14.0(prettier@2.8.8):
     resolution: {integrity: sha512-dRgINgNd3ZhBDuO/+EFalJjSlAqNXvXv9XDtSCeMufXaP6O64HHLBo1Szo+l+cfvXFxwvkTSGrS+sjpEpSchNA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     peerDependencies:
       prettier: ^2.0.0
     dependencies:
       node-sql-parser: 4.6.6
-      prettier: 2.8.7
+      prettier: 2.8.8
       sql-formatter: 12.2.0
       tslib: 2.5.0
     dev: true
 
-  /prettier@2.8.7:
-    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
+  /prettier@2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true

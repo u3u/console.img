@@ -53,10 +53,10 @@
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.0",
-    "@types/node": "^18.15.13",
+    "@types/node": "^18.16.0",
     "@u3u/prettier-config": "^1.0.2",
     "lint-staged": "^13.2.1",
-    "prettier": "^2.8.7",
+    "prettier": "^2.8.8",
     "simple-git-hooks": "^2.8.1",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
