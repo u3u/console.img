@@ -4,6 +4,8 @@ import { readAsDataUrl } from './read-as-data-url'
 import { toArray } from './to-array'
 import { type ConsoleImgOptions } from './types'
 
+export * from './types'
+
 export const consoleImg = async (url: string, options: ConsoleImgOptions = {}) => {
   const {
     //
