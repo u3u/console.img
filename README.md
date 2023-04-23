@@ -32,3 +32,7 @@ console.img('https://cdn.jsdelivr.net/gh/u3u/u3u@main/uPic/5ab9c69c922b0.gif')
 ## Options
 
 Please see [API docs](https://paka.dev/npm/console.img)
+
+## License
+
+[MIT](./LICENSE) License © 2023 [u3u](https://github.com/u3u)

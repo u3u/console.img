@@ -11,7 +11,7 @@
     "url": "https://github.com/u3u/console.img.git"
   },
   "license": "MIT",
-  "author": "u3u",
+  "author": "u3u <qwq@qwq.cat> (https://github.com/u3u)",
   "sideEffects": false,
   "type": "module",
   "exports": {
