@@ -27,7 +27,7 @@ export const consoleImg = async (url: string, options: ConsoleImgOptions = {}) =
 
   const css = (url = dataUrl) =>
     [
-      'line-height: 0',
+      'font-size: 0',
       `padding: ${py}px ${px}px`,
       `background: url(${url}) no-repeat 50% / ${fit}`,
       styles && toArray(styles).join('; '),
