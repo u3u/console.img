@@ -9,11 +9,11 @@ export * from './types'
 export const consoleImg = async (url: string, options: ConsoleImgOptions = {}) => {
   const {
     //
-    width,
-    height,
-    fit = 'contain',
-    styles,
     debug,
+    fit = 'contain',
+    height,
+    styles,
+    width,
   } = options
 
   const blob = await getBlob(url)

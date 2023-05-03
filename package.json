@@ -41,21 +41,27 @@
     "build": "tsup src/index.ts --format cjs,esm,iife --dts-resolve --no-splitting --shims --clean",
     "format": "prettier --write .",
     "preinstall": "npx only-allow pnpm",
+    "lint": "eslint --fix .",
     "prepublishOnly": "pnpm build"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
+    "pre-commit": "npx lint-staged --concurrent false"
   },
   "lint-staged": {
-    "*.{js,ts,md,json}": [
-      "prettier --write"
+    "*.{js,ts}": [
+      "eslint --fix"
+    ],
+    "*": [
+      "prettier --write --ignore-unknown"
     ]
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.0",
-    "@types/node": "^18.16.0",
-    "@u3u/prettier-config": "^1.0.2",
-    "lint-staged": "^13.2.1",
+    "@types/node": "^18.16.3",
+    "@u3u/eslint-config": "^1.0.0",
+    "@u3u/prettier-config": "^1.0.3",
+    "eslint": "^8.39.0",
+    "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "simple-git-hooks": "^2.8.1",
     "tsup": "^6.7.0",
