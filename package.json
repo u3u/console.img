@@ -38,7 +38,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm,iife --dts-resolve --no-splitting --shims --clean",
+    "build": "tsup",
     "format": "prettier --write .",
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint --fix .",
