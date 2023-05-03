@@ -38,7 +38,7 @@ export const consoleImg = async (url: string, options: ConsoleImgOptions = {}) =
   console.log('%c ', css())
 
   if (debug) {
-    console.log('[console.img]', css('data:image/png;base64,...').split('; '))
+    console.log('[console.img]', css(url).split('; '))
   }
 
   return image
