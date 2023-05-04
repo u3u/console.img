@@ -40,7 +40,6 @@
   "scripts": {
     "build": "tsup",
     "format": "prettier --write .",
-    "preinstall": "npx only-allow pnpm",
     "lint": "eslint --fix .",
     "prepublishOnly": "pnpm build"
   },
