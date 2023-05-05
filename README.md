@@ -2,7 +2,7 @@
 
 > ✨ Output image in browser console.
 
-[![npm version](https://badgen.net/npm/v/console.img)](https://npm.im/console.img) [![npm downloads](https://badgen.net/npm/dm/console.img)](https://npm.im/console.img)
+[![npm version](https://badgen.net/npm/v/console.img)](https://npm.im/console.img) [![npm downloads](https://badgen.net/npm/dm/console.img)](https://npm.im/console.img) [![docs](https://paka.dev/badges/v0/cute.svg)](https://paka.dev/npm/console.img)
 
 <img src="https://cdn.jsdelivr.net/gh/u3u/u3u@main/uPic/console.img.gif" width="512">
 
