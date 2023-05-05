@@ -35,6 +35,7 @@ export const consoleImg = async (url: string, options: ConsoleImgOptions = {}) =
       .filter(Boolean)
       .join('; ')
 
+  // eslint-disable-next-line unicorn/no-console-spaces
   console.log('%c ', css())
 
   if (debug) {

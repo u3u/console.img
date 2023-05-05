@@ -9,10 +9,10 @@
 ## Quick start
 
 ```js
-var script = document.createElement('script')
+const script = document.createElement('script')
 script.src = 'https://cdn.jsdelivr.net/npm/console.img'
 script.onload = () => console.img('https://cdn.jsdelivr.net/gh/u3u/u3u@main/uPic/5ab9c69c922b0.gif')
-document.body.appendChild(script)
+document.body.append(script)
 ```
 
 ## Install
