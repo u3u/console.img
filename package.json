@@ -41,7 +41,8 @@
     "build": "tsup",
     "format": "prettier --write .",
     "lint": "eslint --fix .",
-    "prepublishOnly": "pnpm build"
+    "prepublishOnly": "pnpm build",
+    "test": "vitest --ui --coverage"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged --concurrent false"
@@ -59,12 +60,16 @@
     "@types/node": "^18.16.16",
     "@u3u/eslint-config": "^2.2.3",
     "@u3u/prettier-config": "^2.0.0",
+    "@vitest/coverage-c8": "^0.31.1",
+    "@vitest/ui": "^0.31.1",
     "eslint": "^8.41.0",
+    "happy-dom": "^9.20.3",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "simple-git-hooks": "^2.8.1",
     "tsup": "^6.7.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.1"
   },
   "packageManager": "pnpm@8.5.1",
   "publishConfig": {

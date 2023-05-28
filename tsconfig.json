@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "lib": ["dom"],
-    "module": "es2022"
+    "module": "es2022",
+    "resolveJsonModule": true
   },
   "extends": "@tsconfig/node18/tsconfig.json"
 }

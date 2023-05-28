@@ -1,0 +1,28 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Should match snapshots 1`] = `
+[
+  [
+    "%c ",
+    "font-size: 0; padding: 37.5px 50px; background: url(data:image/png;base64,) no-repeat 50% / cover",
+  ],
+  [
+    "%c ",
+    "font-size: 0; padding: 50px 66.66666666666666px; background: url(data:image/png;base64,) no-repeat 50% / contain; background-size: 100%",
+  ],
+  [
+    "%c ",
+    "font-size: 0; padding: 150px 200px; background: url(data:image/png;base64,) no-repeat 50% / contain; background-size: 100% 100%",
+  ],
+  [
+    "[console.img]",
+    "3.0.6",
+    [
+      "font-size: 0",
+      "padding: 150px 200px",
+      "background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==) no-repeat 50% / contain",
+      "background-size: 100% 100%",
+    ],
+  ],
+]
+`;

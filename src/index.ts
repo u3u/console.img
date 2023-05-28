@@ -1,3 +1,4 @@
+import { name, version } from '../package.json'
 import { getBlob } from './get-blob'
 import { loadImage } from './load-image'
 import { readAsDataUrl } from './read-as-data-url'
@@ -30,7 +31,7 @@ export const consoleImg = async (url: string, options: ConsoleImgOptions = {}) =
       'font-size: 0',
       `padding: ${py}px ${px}px`,
       `background: url(${url}) no-repeat 50% / ${fit}`,
-      styles && toArray(styles).join('; '),
+      toArray(styles).join('; '),
     ]
       .filter(Boolean)
       .join('; ')
@@ -38,7 +39,7 @@ export const consoleImg = async (url: string, options: ConsoleImgOptions = {}) =
   // eslint-disable-next-line unicorn/no-console-spaces
   console.log('%c ', css())
 
-  if (debug) console.log('[console.img]', css(url).split('; '))
+  if (debug) console.log(`[${name}]`, version, css(url).split('; '))
 
   return image
 }
