@@ -1,6 +1,6 @@
 // @ts-check
 
-/** @type {import('eslint').ESLint.ConfigData} */
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: ['@u3u'],
   ignorePatterns: ['dist'],
