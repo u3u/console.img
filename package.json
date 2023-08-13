@@ -64,7 +64,7 @@
     "@vitest/ui": "^0.34.1",
     "eslint": "^8.47.0",
     "happy-dom": "^9.20.3",
-    "lint-staged": "^13.2.3",
+    "lint-staged": "^13.3.0",
     "prettier": "^2.8.8",
     "simple-git-hooks": "^2.9.0",
     "tsup": "^7.2.0",
