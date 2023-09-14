@@ -27,8 +27,8 @@ devDependencies:
     specifier: ^8.49.0
     version: 8.49.0
   happy-dom:
-    specifier: ^9.20.3
-    version: 9.20.3
+    specifier: ^11.2.0
+    version: 11.2.0
   lint-staged:
     specifier: ^13.3.0
     version: 13.3.0
@@ -46,7 +46,7 @@ devDependencies:
     version: 5.2.2
   vitest:
     specifier: ^0.34.4
-    version: 0.34.4(@vitest/ui@0.34.4)(happy-dom@9.20.3)
+    version: 0.34.4(@vitest/ui@0.34.4)(happy-dom@11.2.0)
 
 packages:
 
@@ -1323,7 +1323,7 @@ packages:
       std-env: 3.3.3
       test-exclude: 6.0.0
       v8-to-istanbul: 9.1.0
-      vitest: 0.34.4(@vitest/ui@0.34.4)(happy-dom@9.20.3)
+      vitest: 0.34.4(@vitest/ui@0.34.4)(happy-dom@11.2.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1370,7 +1370,7 @@ packages:
       pathe: 1.1.1
       picocolors: 1.0.0
       sirv: 2.0.3
-      vitest: 0.34.4(@vitest/ui@0.34.4)(happy-dom@9.20.3)
+      vitest: 0.34.4(@vitest/ui@0.34.4)(happy-dom@11.2.0)
     dev: true
 
   /@vitest/utils@0.34.4:
@@ -3040,8 +3040,8 @@ packages:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
 
-  /happy-dom@9.20.3:
-    resolution: {integrity: sha512-eBsgauT435fXFvQDNcmm5QbGtYzxEzOaX35Ia+h6yP/wwa4xSWZh1CfP+mGby8Hk6Xu59mTkpyf72rUXHNxY7A==}
+  /happy-dom@11.2.0:
+    resolution: {integrity: sha512-z4PshcYIIH6SkymSNRcDFwYUJOENe+FOQDx5BbHgg/wQUgxF5p9I9/BN45Jff34bbhXV8yJgkC5N99eyOzXK3w==}
     dependencies:
       css.escape: 1.5.1
       entities: 4.5.0
@@ -5655,7 +5655,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest@0.34.4(@vitest/ui@0.34.4)(happy-dom@9.20.3):
+  /vitest@0.34.4(@vitest/ui@0.34.4)(happy-dom@11.2.0):
     resolution: {integrity: sha512-SE/laOsB6995QlbSE6BtkpXDeVNLJc1u2LHRG/OpnN4RsRzM3GQm4nm3PQCK5OBtrsUqnhzLdnT7se3aeNGdlw==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -5700,7 +5700,7 @@ packages:
       cac: 6.7.14
       chai: 4.3.7
       debug: 4.3.4
-      happy-dom: 9.20.3
+      happy-dom: 11.2.0
       local-pkg: 0.4.3
       magic-string: 0.30.1
       pathe: 1.1.1
