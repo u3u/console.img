@@ -57,7 +57,7 @@
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.1",
-    "@types/node": "^18.19.6",
+    "@types/node": "^20.17.2",
     "@u3u/eslint-config": "^2.15.0",
     "@u3u/prettier-config": "^2.1.1",
     "@vitest/coverage-v8": "^0.34.6",
