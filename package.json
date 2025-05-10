@@ -63,7 +63,7 @@
     "@vitest/coverage-v8": "^0.34.6",
     "@vitest/ui": "^0.34.7",
     "eslint": "^8.57.1",
-    "happy-dom": "^9.20.3",
+    "happy-dom": "^15.0.0",
     "lint-staged": "^13.3.0",
     "prettier": "^2.8.8",
     "simple-git-hooks": "^2.13.0",
