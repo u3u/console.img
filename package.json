@@ -59,7 +59,7 @@
     "@tsconfig/node18": "^2.0.1",
     "@types/node": "^18.19.100",
     "@u3u/eslint-config": "^2.15.2",
-    "@u3u/prettier-config": "^2.1.1",
+    "@u3u/prettier-config": "^5.2.0",
     "@vitest/coverage-v8": "^0.34.6",
     "@vitest/ui": "^0.34.7",
     "eslint": "^8.57.1",
