@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@tsconfig/node18':
-    specifier: ^2.0.1
-    version: 2.0.1
+    specifier: ^18.2.8
+    version: 18.2.8
   '@types/node':
     specifier: ^18.19.100
     version: 18.19.100
@@ -1061,8 +1061,8 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@tsconfig/node18@2.0.1:
-    resolution: {integrity: sha512-UqdfvuJK0SArA2CxhKWwwAWfnVSXiYe63bVpMutc27vpngCntGUZQETO24pEJ46zU6XM+7SpqYoMgcO3bM11Ew==}
+  /@tsconfig/node18@18.2.8:
+    resolution: {integrity: sha512-bxn9vGVfFpyb0cv2JMvTdcfC16kiJy+4p88Ffi9vb4FAmNvhMiMW4BjMlVGEUvrtgDe9DcxPDAoOAcFJBW96IA==}
     dev: true
 
   /@types/acorn@4.0.6:
